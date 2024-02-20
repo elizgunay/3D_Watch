@@ -1,3 +1,35 @@
+## Create an awesome 3d Landing Page for Watch with React JS and Three JS
+
+# External Libraries used in this project:
+ - GSAP
+ - @react-three/drei
+ - @react-three/fiber
+### Features
+ # Model Viewing:
+
+ - Zooming: Use the mouse wheel or touch gestures to zoom in and out.
+ - Rotating: Rotate the model by dragging with the mouse or touch gestures.
+
+# Lighting:
+
+- Ambient Light: Provides overall illumination to the scene.
+- Point Light: A point source of light that illuminates the scene in all directions.
+- Spot Light: A directional light with a specific cone angle.
+### Quick Start
+Make sure you have the following installed on your machine:
+
+- Git
+- Node.js
+- npm (Node Package Manager)
+
+# Cloning the Repository
+### `add clone https://github.com/elizgunay/3D_Watch.git`
+
+# Installation
+Install the project dependencies using npm:
+
+### `npm install` 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
