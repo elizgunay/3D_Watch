@@ -5,12 +5,12 @@
  - @react-three/drei
  - @react-three/fiber
 # Features
- # Model Viewing:
+ ## Model Viewing:
 
  - Zooming: Use the mouse wheel or touch gestures to zoom in and out.
  - Rotating: Rotate the model by dragging with the mouse or touch gestures.
 
-# Lighting:
+## Lighting:
 
 - Ambient Light: Provides overall illumination to the scene.
 - Point Light: A point source of light that illuminates the scene in all directions.
