@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+
+import { useRef } from 'react';
 import './App.css';
 
-function App() {
+import Navbar from './components/navbar/Navbar';
+import Header from './containers/header/Header';
+import About from './containers/about/About';
+import Products from './containers/products/Products';
+import Section from './containers/section/Section';
+
+import WatchCanvas from './components/canvas/Watch'
+import Watch from './components/canvas/Watch';
+
+import { BrowserRouter } from 'react-router-dom';
+import View from './containers/view-section/View'
+import ViewSection from './containers/view-section/ViewSection';
+
+const App = () => {
+
+  const watchCanvasRef = useRef();
+
+  const handlePreview = () => {
+    if (watchCanvasRef.current) {
+      watchCanvasRef.current.triggerPreview();
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar/>
+      <Watch />
+      <Header/>
+      <About/>
+      <Section triggerPreview={handlePreview}/>
+      <Products/>
+      <ViewSection/>
+    </BrowserRouter>
   );
 }
 

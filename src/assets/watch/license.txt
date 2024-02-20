@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apple_Watch_S9_gps
+* source:	https://sketchfab.com/3d-models/apple-watch-s9-gps-1c7b938b3a8f4ea2b0026ecaa4887ed0
+* author:	Jackey&Design (https://sketchfab.com/1394725324zhang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apple_Watch_S9_gps" (https://sketchfab.com/3d-models/apple-watch-s9-gps-1c7b938b3a8f4ea2b0026ecaa4887ed0) by Jackey&Design (https://sketchfab.com/1394725324zhang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

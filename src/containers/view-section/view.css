@@ -1,0 +1,17 @@
+.app__view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: var(--background-white);
+    min-height: 100vh;
+
+    position: relative;
+
+}
+
+canvas{
+    width: 600px;
+    height: 600px;    
+}
