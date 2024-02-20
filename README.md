@@ -1,4 +1,4 @@
-## Create an awesome 3d Landing Page for Watch with React JS and Three JS
+# Create an awesome 3d Landing Page for Watch with React JS and Three JS
 
 ## External Libraries used in this project:
  - GSAP
