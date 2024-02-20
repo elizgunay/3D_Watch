@@ -1,10 +1,10 @@
 ## Create an awesome 3d Landing Page for Watch with React JS and Three JS
 
-# External Libraries used in this project:
+## External Libraries used in this project:
  - GSAP
  - @react-three/drei
  - @react-three/fiber
-### Features
+# Features
  # Model Viewing:
 
  - Zooming: Use the mouse wheel or touch gestures to zoom in and out.
